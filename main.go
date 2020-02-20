@@ -1,15 +1,16 @@
 package main
 
 import (
+	"ejercicios_go/json"
+	"ejercicios_go/punteros"
 	"fmt"
-	"hellov7/json"
-	"hellov7/punteros"
 )
 
 func main() {
 	punteros.Examplepuntero()
 
 	json.Encodepersona()
+	json.EncodeEjercicio()
 }
 
 type persona struct {
