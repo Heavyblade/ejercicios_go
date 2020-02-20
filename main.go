@@ -11,6 +11,7 @@ func main() {
 
 	json.Encodepersona()
 	json.EncodeEjercicio()
+	json.DecodeEjercicio()
 }
 
 type persona struct {
