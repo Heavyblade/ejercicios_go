@@ -12,6 +12,9 @@ func main() {
 	json.Encodepersona()
 	json.EncodeEjercicio()
 	json.DecodeEjercicio()
+
+	per := &persona{"Santiago", "vasquez", 37}
+	fmt.Println(per.nombre)
 }
 
 type persona struct {
