@@ -15,6 +15,8 @@ func main() {
 
 	per := &persona{"Santiago", "vasquez", 37}
 	fmt.Println(per.nombre)
+	json.EncodeToStdout()
+	punteros.TestPunteros()
 }
 
 type persona struct {
