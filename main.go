@@ -1,22 +1,21 @@
 package main
 
 import (
-	"ejercicios_go/json"
-	"ejercicios_go/punteros"
+	"ejercicios_golang/race"
 	"fmt"
 )
 
 func main() {
-	punteros.Examplepuntero()
+	// punteros.Examplepuntero()
 
-	json.Encodepersona()
-	json.EncodeEjercicio()
-	json.DecodeEjercicio()
+	// json.Encodepersona()
+	// json.EncodeEjercicio()
+	// json.DecodeEjercicio()
 
-	per := &persona{"Santiago", "vasquez", 37}
-	fmt.Println(per.nombre)
-	json.EncodeToStdout()
-	punteros.TestPunteros()
+	// json.EncodeToStdout()
+	// punteros.TestPunteros()
+
+	race.CheckRaceCondition()
 }
 
 type persona struct {
