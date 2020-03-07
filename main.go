@@ -1,20 +1,29 @@
 package main
 
 import (
-	"ejercicios_golang/race"
+	"ejercicios_go/json"
+	"ejercicios_go/nivel_9"
+	"ejercicios_go/punteros"
+	"ejercicios_go/race"
 	"fmt"
 )
 
 func main() {
 	// punteros.Examplepuntero()
+	// nivel_9.Ejercicio1()
+	// nivel_9.Ejercicio2()
+	// nivel_9.Ejercicio3()
+	nivel_9.Ejercicio3FixMutex()
 
-	// json.Encodepersona()
-	// json.EncodeEjercicio()
-	// json.DecodeEjercicio()
+}
 
-	// json.EncodeToStdout()
-	// punteros.TestPunteros()
+func ejerciciosPunteros() {
+	json.Encodepersona()
+	json.EncodeEjercicio()
+	json.DecodeEjercicio()
 
+	json.EncodeToStdout()
+	punteros.TestPunteros()
 	race.CheckRaceCondition()
 }
 
