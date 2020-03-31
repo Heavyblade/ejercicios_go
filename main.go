@@ -2,7 +2,7 @@ package main
 
 import (
 	"ejercicios_go/json"
-	"ejercicios_go/nivel_9"
+	"ejercicios_go/nivel10"
 	"ejercicios_go/punteros"
 	"ejercicios_go/race"
 	"fmt"
@@ -13,7 +13,8 @@ func main() {
 	// nivel_9.Ejercicio1()
 	// nivel_9.Ejercicio2()
 	// nivel_9.Ejercicio3()
-	nivel_9.Ejercicio3FixMutex()
+	// nivel9.Ejercicio3FixMutex()
+	nivel10.Exec()
 
 }
 
